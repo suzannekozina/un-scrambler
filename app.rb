@@ -30,7 +30,18 @@ quote2 = "Use Ruby, and you'll write better code, be more productive, and /
 sage_and_venue2 = "Dave Thomas, book 'Programming Ruby: The Pragmatic Programmer's Guide'"
 
 quote3 = "The world changes not by being safe but by challenging expectations."
-quote3 = quote3.insert(3, 'X')
+quote3 = quote3.swapcase
+quote3 = quote3.sub(/[AEIO]/, '*')
+quote3 = quote3.squeeze
+quote3 = quote3.reverse
 sage_and_venue3 = "Tony Fadell on Udacity Talks"
+sage_and_venue3 = sage_and_venue3.downcase
+sage_and_venue3 = sage_and_venue3.gsub('l','Z')
+sage_and_venue3 = sage_and_venue3.insert(1,'?')
+sage_and_venue3 = sage_and_venue3.insert(-3,'{}')
+sage_and_venue3 = sage_and_venue3.tr('uda','YOU')
+sage_and_venue3 = sage_and_venue3.tr('t','.')
+# .escape('\*?{}.')
+puts quote3
 
-print quote3
+print sage_and_venue3
