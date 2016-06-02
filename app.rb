@@ -3,12 +3,6 @@
 # Try the chanllenge starting on line__
 # Try modifying the exisiting code to see what you can come up with!
 
-# If you are on Windows and don't yet have a dev environment
-# and want to experiement with running Ruby code locally on your computer
-## I highly recommend:
-#### Ruby Installer for Windows - http://rubyinstaller.org/
-#### and Atom editor plus script package - https://atom.io/packages/script
-
 # The following code is free for reuse in your own freely distributed project,
 # but kindly include the license. Thanks!
 
