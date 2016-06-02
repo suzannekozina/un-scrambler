@@ -23,12 +23,13 @@ sage_and_venue = ".?ony fUOeZZ on YOUci.y .UZ{}ks"
 puts "Sage and venue: #{sage_and_venue}"
 print "*"*10 + "\n"
 
-#***First let's figure out what the quote says
+#***First let's figure out what the quote says***
 # Reverse characters in the quote
 quote = quote.reverse
 puts quote
 print "*"*10 + "\n"
 
+#Switch capital letters to lowercase and vice versa
 quote = quote.swapcase
 puts quote
 print "*"*10 + "\n"
@@ -38,37 +39,33 @@ quote = quote.sub("*","e")
 puts quote
 print "*"*10 + "\n"
 
-#***Now let's figure out who said this and where
-#It looks like we have a lot of escape characters - let's get rid of those
+#***Now it's your turn***
+# See if you can find string methods to un-scramble who said the quote and where
+###Remember you can always look up the String Methods in Ruby Docs
 
+sage_and_venue = "{SKLAt YTICADu NO LLEDAf YNOt?"
 
-# quote = "The world changes not by being safe but by challenging expectations."
-# quote = quote.swapcase
-# quote = quote.sub(/[AEIO]/, '*')
-# quote = quote.squeeze
-# quote = quote.reverse
-# sage_and_venue = "Tony Fadell on Udacity Talks"
-# sage_and_venue = sage_and_venue3.downcase
-# sage_and_venue = sage_and_venue3.gsub('l','Z')
-# sage_and_venue = sage_and_venue3.insert(1,'?')
-# sage_and_venue = sage_and_venue3.insert(-3,'{}')
-# sage_and_venue = sage_and_venue3.tr('uda','YOU')
-# sage_and_venue = sage_and_venue3.tr('t','.')
-# .escape('\*?{}.')
+# Reverse the text in the string
+#..your code goes here
+sage_and_venue = sage_and_venue.reverse
+puts sage_and_venue
+print "*"*10 + "\n"
 
+# Switch capital letters to lowercase and vice versa
+#..your code goes here
+sage_and_venue = sage_and_venue.swapcase
+puts sage_and_venue
+print "*"*10 + "\n"
 
+# Chop off the last character of the string
+sage_and_venue = sage_and_venue.chop!
+puts sage_and_venue
+print "*"*10 + "\n"
 
+# Chop off the first character
+sage_and_venue = sage_and_venue.delete("?")
+puts sage_and_venue
+print "~"*30 + "\n"
 
-quote1 = "I wanted a scripting language that was more powerful than Perl, and /
-          more object-oriented than Python. That's why I decided to design my /
-          own language."
-
-sage_and_venue1 = "Matz in interview with Linux Dev Center" + "Link here: " +
-                  "http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html"
-
-quote2 = "Use Ruby, and you'll write better code, be more productive, and /
-          enjoy programming more."
-
-sage_and_venue2 = "Dave Thomas, book 'Programming Ruby: The Pragmatic Programmer's Guide'"
-
-# .escape('\*?{}.')
+puts "So remember the sage advice from #{sage_and_venue}: "
+puts "\"#{quote}\""
