@@ -15,4 +15,4 @@ If you are on Windows and don't yet have a Ruby dev environment setup but WOULD 
 
 # Author
 ## Suzanne Kozina
-I made this project to help other people who might be starting out with Ruby. The following code is free for reuse in your own freely distributed project, but kindly include the [license](). Thanks!
+I made this project to help other people who might be starting out with Ruby. The following code is free for reuse in your own freely distributed project, but kindly include the [LICENSE.txt](LICENSE.txt). Thanks!

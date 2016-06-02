@@ -47,23 +47,19 @@ sage_and_venue = "{SKLAt YTICADu NO LLEDAf YNOt?"
 
 # Reverse the text in the string
 #..your code goes here
-sage_and_venue = sage_and_venue.reverse
 puts sage_and_venue
 print "*"*10 + "\n"
 
 # Switch capital letters to lowercase and vice versa
 #..your code goes here
-sage_and_venue = sage_and_venue.swapcase
 puts sage_and_venue
 print "*"*10 + "\n"
 
 # Chop off the last character of the string
-sage_and_venue = sage_and_venue.chop!
 puts sage_and_venue
 print "*"*10 + "\n"
 
 # Chop off the first character
-sage_and_venue = sage_and_venue.delete("?")
 puts sage_and_venue
 print "~"*30 + "\n"
 
