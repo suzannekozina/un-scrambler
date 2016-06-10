@@ -2,7 +2,7 @@
 
 ## Quick Description
 
-A simple Ruby project to provide beginning Rubyists with modifying and running Ruby code.
+A simple Ruby project for beginning Rubyists who'd like more practice modifying and running Ruby code locally on their own computer or virtual machine, cloud dev environment, IDE, text editor, etc.
 
 ## Why I made this
 As I was beginning to learn Ruby I noticed that there were few simple projects I could download, modify, and run locally on my computer. I decided to make one. This was also a way for me to stay fresh on skills that I learned very early on in the [Udacity Ruby Programming Nanodegree](https://www.udacity.com/course/ruby-programming-nanodegree--nd010).
