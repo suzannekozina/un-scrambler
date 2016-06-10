@@ -1,10 +1,6 @@
-# You can play with this code to get more practice working with strings in Ruby
-# Try running the code
-# Try the chanllenge starting on line__
-# Try modifying the exisiting code to see what you can come up with!
-
-# The following code is free for reuse in your own freely distributed project,
-# but kindly include the license. Thanks!
+# Play with this code to get more practice working with strings in Ruby
+# I've added comments along the way to help guide you through the actions that each line of code performs
+# Starting at line 31, I left some text in a string that still needs un-scrambled. Are you up to the challenge of un-scrambling it?
 
 ##################
 # THE PREMISE
