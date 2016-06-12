@@ -2,6 +2,7 @@
 
 ## Quick Description
 *For beginning Rubyists who'd like more practice with Ruby Strings* 
+
 If you'd like to get a better feel of Ruby's public String methods you can fork this repo, download it onto your own dev setup and play around with the code. 
 
 ## Why I made this
